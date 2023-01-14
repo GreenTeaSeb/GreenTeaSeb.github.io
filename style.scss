@@ -64,7 +64,7 @@ main {
             font-family: 'mervale', cursive;
             font-size: 1.5rem;
             text-align: center;
-            width: 12rem;
+            width: 12grem;
             margin: 0;
             z-index: 1;
         }
@@ -195,14 +195,15 @@ main {
     }
 
     #maps {
-        div {
+        a {
             display: flex;
             flex-direction: column;
             align-items: center;
-
+            text-decoration: none;
             p {
                 font-family: 'mervale', cursive;
                 font-size: 2rem;
+                color: black;
             }
 
             img {

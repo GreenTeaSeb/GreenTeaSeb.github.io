@@ -62,7 +62,7 @@ main .text p {
   font-family: "mervale", cursive;
   font-size: 1.5rem;
   text-align: center;
-  width: 12rem;
+  width: 12grem;
   margin: 0;
   z-index: 1;
 }
@@ -169,16 +169,18 @@ main #events p {
 main #events p img {
   height: 5rem;
 }
-main #maps div {
+main #maps a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-decoration: none;
 }
-main #maps div p {
+main #maps a p {
   font-family: "mervale", cursive;
   font-size: 2rem;
+  color: black;
 }
-main #maps div img {
+main #maps a img {
   width: 90%;
   max-height: 40rem;
   -o-object-fit: contain;
